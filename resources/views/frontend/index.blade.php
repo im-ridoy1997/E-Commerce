@@ -8,182 +8,6 @@
     <div class="container-fluid">
         <div class="row">
 
-            <!-- <div class="col-sm-3 col-lg-2">
-                <div class="video-left">
-                    <form>
-
-                        <div class="form-group">
-                            <div class="dropdown">
-                                <button class="btn btn-video-left dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <i class="flaticon-carrot icon"></i>
-                                    Vegetable
-                                    <i class='bx bx-chevron-down icon-two'></i>
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                    <li>
-                                        <a class="dropdown-item" href="#">Seasonal vegetable</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Leafy vegetable</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Stem vegetable</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="dropdown">
-                                <button class="btn btn-video-left dropdown-toggle" type="button" id="dropdownMenu3" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <i class="flaticon-apple icon"></i>
-                                    Fruits
-                                    <i class='bx bx-chevron-down icon-two'></i>
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
-                                    <li>
-                                        <a class="dropdown-item" href="#">Action</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Something else here</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="dropdown">
-                                <button class="btn btn-video-left dropdown-toggle" type="button" id="dropdownMenu4" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <i class="flaticon-meat icon"></i>
-                                    Chicken
-                                    <i class='bx bx-chevron-down icon-two'></i>
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
-                                    <li>
-                                        <a class="dropdown-item" href="#">Action</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Something else here</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="dropdown">
-                                <button class="btn btn-video-left dropdown-toggle" type="button" id="dropdownMenu5" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <i class="flaticon-meat-1 icon"></i>
-                                    Meat
-                                    <i class='bx bx-chevron-down icon-two'></i>
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu5">
-                                    <li>
-                                        <a class="dropdown-item" href="#">Action</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Something else here</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="dropdown">
-                                <button class="btn btn-video-left dropdown-toggle" type="button" id="dropdownMenu6" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <i class="flaticon-fish icon"></i>
-                                    Fish
-                                    <i class='bx bx-chevron-down icon-two'></i>
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu6">
-                                    <li>
-                                        <a class="dropdown-item" href="#">Action</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Something else here</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="dropdown">
-                                <button class="btn btn-video-left dropdown-toggle" type="button" id="dropdownMenu7" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <i class="flaticon-milk icon"></i>
-                                    Milk
-                                    <i class='bx bx-chevron-down icon-two'></i>
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu7">
-                                    <li>
-                                        <a class="dropdown-item" href="#">Action</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Something else here</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="dropdown">
-                                <button class="btn btn-video-left dropdown-toggle" type="button" id="dropdownMenu8" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <i class="flaticon-breakfast icon"></i>
-                                    Breakfast
-                                    <i class='bx bx-chevron-down icon-two'></i>
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu8">
-                                    <li>
-                                        <a class="dropdown-item" href="#">Action</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Something else here</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="dropdown">
-                                <button class="btn btn-video-left dropdown-toggle" type="button" id="dropdownMenu9" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <i class="flaticon-eggs icon"></i>
-                                    Egg
-                                    <i class='bx bx-chevron-down icon-two'></i>
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu9">
-                                    <li>
-                                        <a class="dropdown-item" href="#">Action</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Something else here</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                    </form>
-                </div>
-            </div> -->
-
             <div class="col-sm-12 col-lg-12">
                 <div class="video-slider owl-theme owl-carousel">
                 @foreach($slider as $val)
@@ -221,9 +45,9 @@
                                         <div class="col-sm-6 col-lg-3 mix {{ str_replace(' ','_',$product->categoryName->category_name); }} center-table">
                                             <div class="products-item">
                                                 <div class="top">
-                                                    <!-- <a class="wishlist" href="javascript:void(0)" onclick="addToCart('{{ $product->id }}')">
-                                                        <i class='bx bx-plus'></i>
-                                                    </a> -->
+                                                <a class="wishlist" href="#">
+                                                    <i class='bx bx-heart'></i>
+                                                </a>
                                                     <video height="100px" controls>
                                                         <source src="{{URL::asset('products/'.$product->image->image)}}" type="video/mp4">
                                                         Your browser does not support the video tag.
@@ -254,9 +78,9 @@
                                         <div class="col-sm-6 col-lg-3 mix {{ str_replace(' ','_',$product->categoryName->category_name); }} center-table">
                                             <div class="products-item">
                                                 <div class="top">
-                                                    <!-- <a class="wishlist" href="javascript:void(0)" onclick="addToCart('{{ $product->id }}')">
-                                                        <i class='bx bx-plus'></i>
-                                                    </a> -->
+                                                <a class="wishlist" href="#">
+                                                    <i class='bx bx-heart'></i>
+                                                </a>
                                                     <img style="height: 100px !important;" src="{{ url('products/'.$product->image->image) }}" alt="Products">
                                                     <div class="inner mt-2">
                                                         <h3><a href="{{ url('/single-product/'.$product->id ) }}" onclick="clickAddForProduct('{{ $product->id }}')">{{ $product->sku }}</a></h3>
@@ -285,9 +109,9 @@
                                         <div class="col-sm-6 col-lg-3 mix {{ str_replace(' ','_',$product->categoryName->category_name); }} center-table">
                                             <div class="products-item">
                                                 <div class="top">
-                                                    <!-- <a class="wishlist" href="javascript:void(0)" onclick="addToCart('{{ $product->id }}')">
-                                                        <i class='bx bx-plus'></i>
-                                                    </a> -->
+                                                    <a class="wishlist" href="#">
+                                                        <i class='bx bx-heart'></i>
+                                                    </a>
                                                     <img style="height: 100px !important;" src="{{ url('products/') }}" alt="Products">
                                                     <div class="inner mt-2">
                                                         <h3><a href="{{ url('/single-product/'.$product->id ) }}" onclick="clickAddForProduct('{{ $product->id }}')">{{ $product->sku }}</a></h3>

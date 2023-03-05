@@ -187,7 +187,7 @@ jQuery("#addProductForm").submit(function (e) {
                 });
             }
             if (result.status == "success") {
-                window.location.href = '/admin/product/edit/' + result.id;
+                window.location.href = '/admin/product';
             }
         },
     });

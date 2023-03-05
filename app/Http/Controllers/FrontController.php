@@ -41,14 +41,14 @@ class FrontController extends Controller
         if(Auth::guard('member')->user()){
             $data['category'] = Category::where('is_deleted', 0)->orderBy('category_name', 'ASC')->get();
             $data['main_category'] = Category::where('parent_id', null)->where('is_deleted', 0)->orderBy('category_name', 'ASC')->get();
-            $data['products'] = Product::orderBy('sku', 'ASC')->paginate(12);
+            $data['products'] = Product::orderBy('id', 'DESC')->paginate(12);
             $data['slider'] = Slider::where('is_deleted', 0)->get();
         }else{
             // dd(Session::get('cart'));
             // Session::forget('cart');
             $data['category'] = Category::where('is_deleted', 0)->orderBy('category_name', 'ASC')->get();
             $data['main_category'] = Category::where('parent_id', null)->where('is_deleted', 0)->where('category_authorize', 'all')->orderBy('category_name', 'ASC')->get();
-            $data['products'] = Product::where('product_authorize', 'all')->orderBy('sku', 'ASC')->paginate(12);
+            $data['products'] = Product::where('product_authorize', 'all')->orderBy('id', 'DESC')->paginate(12);
             $data['slider'] = Slider::where('is_deleted', 0)->get();
         }
         

@@ -179,7 +179,7 @@ class ProductController extends Controller
                 }
                 DB::commit();
                 Toastr::info('Product updated.','', ["positionClass" => "toast-top-right"]);
-                return redirect('admin/product/edit/'.$request->id);
+                return redirect('admin/product');
             }else{
                 Product::where('id', $request->id)->update([
                     'sku' => $request->sku,
@@ -217,7 +217,7 @@ class ProductController extends Controller
                 ]);
                 DB::commit();
                 Toastr::info('Product updated.','', ["positionClass" => "toast-top-right"]);
-                return redirect('admin/product/edit/'.$request->id);
+                return redirect('admin/product');
             }
         }catch(\Exception $e){
             DB::rollback();

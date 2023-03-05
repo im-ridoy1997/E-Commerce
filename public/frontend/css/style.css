@@ -926,17 +926,17 @@ button:focus {
 
 .products-item .top .wishlist {
   display: inline-block;
-  color: #fff;
+  color: #F05454;
   font-size: 25px;
   position: absolute;
-  top: 4px;
-  right: 5px;
-  width: 33px;
-  height: 37px;
+  top: 14px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
   text-align: center;
-  background-color: #028b37;
+  background-color: #fff;
   -webkit-box-shadow: 0px 0px 20px 0px #dddddd59;
-  box-shadow: 0px 0px 20px 0px #dddddd59;
+          box-shadow: 0px 0px 20px 0px #dddddd59;
   border-radius: 50%;
 }
 
@@ -946,7 +946,7 @@ button:focus {
 
 .products-item .top .wishlist:hover {
   color: #fff;
-  background-color: #028b37;
+  background-color: #F05454;
 }
 
 .products-item .top img {
