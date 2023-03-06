@@ -1,5 +1,5 @@
 @extends('frontend.layout')
-@section('page_title','Inquiry / Request a quote')
+@section('page_title','Checkout')
 @section('content')
 
 

@@ -187,7 +187,7 @@ class FrontController extends Controller
     }
 
     public function shop(){
-        $data['product'] = Product::where('is_deleted', 0)->orderBy('sku', 'ASC')->paginate(12);
+        $data['product'] = Product::where('is_deleted', 0)->orderBy('id', 'DESC')->paginate(12);
         return view('frontend/shop', $data);
     }
 
@@ -264,6 +264,31 @@ class FrontController extends Controller
         }
         
         return view('frontend/cart', ['data'=> $data, 'total_ctn' => $total_ctn,  'total_price' => $total_price]);
+    }
+
+    public function checkout(){
+        $session_data = Session::get('cart');
+        if($session_data){
+            $ids = array();
+        
+            foreach(Session::get('cart') as $val){
+                $ids[] = $val['id'];
+            }
+            $data = Product::where('tbl_product.is_deleted', 0)
+                            ->whereIn('tbl_product.id', $ids)->get(['tbl_product.*']);
+            $total_ctn = 0;
+            $total_price = 0;
+            foreach($data as $key => $val){
+                $val->total_ctn = $session_data[$key]['total_ctn'] ? $session_data[$key]['total_ctn'] : 0;
+                $val->requirement = $session_data[$key]['requirement'];
+                $total_ctn += $session_data[$key]['total_ctn'] ? $session_data[$key]['total_ctn'] : 0;
+                $total_price += ($val->price * $val->moq);
+            }
+        }else{
+            $data = array();
+        }
+        
+        return view('frontend/checkout', ['data'=> $data, 'total_ctn' => $total_ctn,  'total_price' => $total_price]);
     }
 
     public function editCartSubmit(Request $request){

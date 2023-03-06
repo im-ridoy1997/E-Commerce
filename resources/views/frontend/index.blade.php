@@ -70,7 +70,7 @@
                                                 </div>
                                                 <div class="bottom">
                                                     <a class="cart-text" href="javascript:void(0)" onclick="addToCart('{{ $val->id }}')">Add in inquiry cart</a>
-                                                    <i class='bx bx-plus'></i>
+                                                    <i class='bx bx-plus' style="color: #434E6E !important;"></i>
                                                 </div>
                                             </div>
                                         </div>
@@ -100,7 +100,7 @@
                                                 </div>
                                                 <div class="bottom">
                                                     <a class="cart-text" href="javascript:void(0)" onclick="addToCart('{{ $val->id }}')">Add in inquiry cart</a>
-                                                    <i class='bx bx-plus'></i>
+                                                    <i class='bx bx-plus' style="color: #434E6E !important;"></i>
                                                 </div>
                                             </div>
                                         </div>
@@ -131,7 +131,7 @@
                                                 </div>
                                                 <div class="bottom">
                                                     <a class="cart-text" href="javascript:void(0)" onclick="addToCart('{{ $val->id }}')">Add in inquiry cart</a>
-                                                    <i class='bx bx-plus'></i>
+                                                    <i class='bx bx-plus' style="color: #434E6E !important;"></i>
                                                 </div>
                                             </div>
                                         </div>

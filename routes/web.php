@@ -43,6 +43,7 @@ Route::get('/contact-us',[FrontController::class, 'contact']);
 Route::get('/site-map',[FrontController::class, 'sitemap']);
 Route::get('/shop',[FrontController::class, 'shop']);
 Route::get('/cart',[FrontController::class, 'cart']);
+Route::get('/checkout',[FrontController::class, 'checkout']);
 // Route::get('/favorite',[FrontController::class, 'favorite']);
 // Route::post('/add-to-favorite',[FrontController::class, 'AddToFavorite']);
 Route::post('/add-favorite-link',[FrontController::class, 'addToFavoriteLink']);
